@@ -1,0 +1,36 @@
+.card {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 200px;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  border: 3px solid gray;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
+
+.card > h4 {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  color: white;
+  font-size: large;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card > h3 {
+  position: absolute;
+  font-size: x-large;
+  color: #29caff;
+  top: -20px;
+  left: 5px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

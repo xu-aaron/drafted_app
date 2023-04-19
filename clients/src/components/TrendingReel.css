@@ -1,0 +1,8 @@
+.trendingReel {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.trendingTitle {
+  margin-bottom: 10px;
+}

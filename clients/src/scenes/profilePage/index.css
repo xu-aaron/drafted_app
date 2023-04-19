@@ -1,0 +1,149 @@
+.profile {
+  flex: 1;
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.profile_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%;
+  max-width: 900px;
+  padding: 20 20px;
+  background: #191b21;
+  border-radius: 10px;
+  height: 500px;
+  position: relative;
+  box-shadow: 0 20px 60px rga(0, 0, 0, 0.25); */
+}
+
+.card_player {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_player > img {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.card_name {
+  font-size: 4.5em;
+  color: #191b21;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.3em;
+  word-spacing: -0.4em;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+  margin-right: 30px;
+}
+
+.MuiCardActions-root {
+  font-size: 3.0em;
+  color: #191b21;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 0.02em;
+  background-color: #2d2f35;
+  height: 40px;
+  /* color: #e7c250; */
+  color: #29caff;
+}
+
+.number_circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+
+  background: #dadada;
+  border: 2px solid #000000;
+  color: #000000;
+  text-align: center;
+
+  font: 20px Arial, sans-serif;
+}
+
+.card_stats {
+  color: rgba(255, 255, 255, 0.8);
+  /* height: 100%;
+  width: 50%; */
+  background: #2d2f35;
+  /* border-radius: 6px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: right;
+}
+
+.MuiCardContent-root {
+  color: rgba(255, 255, 255, 0.8);
+  background: #2d2f35;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -10;
+}
+
+.group {
+  display: inline-block;
+  width: 40%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.label {
+  font-size: 1.0rem;
+  letter-spacing: 1.5px;
+  /* color: #e7c250; */
+  color: #29caff;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0 0 0.5em;
+}
+
+.description {
+  font-size: 1.0rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead th {
+  text-align: left;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
