@@ -1,6 +1,8 @@
 # Drafted Web Application
 ## Project Overview
-Drafted is an all-inclusive platform that aims to streamline the athlete recruiting process by creating a more casual and social experience intended to boost athlete exposure.
+Drafted is an all-inclusive platform that aims to streamline the athlete recruiting process by creating a more casual and social experience intended to boost athlete exposure. <br />
+<br />
+Created by Aaron Xu for Unviersity of Massachusetts Amherst Honors Thesis (2023)
 
 ## Installation
 1. Clone the repository
